@@ -21,6 +21,7 @@ namespace Consultation.Domain
 
         [ForeignKey(nameof(EnrolledCourseID))]
         public int  EnrolledCourseID { get; set; }
+        //Gi Enum na nako tung mga status kay para para dali ang access
         public SchoolYearStatus SchoolYearStatus { get; set; }
     }
 }
